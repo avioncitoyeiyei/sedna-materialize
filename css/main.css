@@ -102,5 +102,13 @@ h1{
 
 .flecha{
     color: white;
-    padding-top: 90px;
+    padding-top: 80px;
+    animation: efecto 2s alternate infinite !important;
+}
+
+@keyframes efecto {
+    0% { transform: translateY(10px);}
+    34% { transform: translateY(-10px);}
+    68% { transform: translateY(10px);}
+    100% { transform: translateY(-10px);}
 }
