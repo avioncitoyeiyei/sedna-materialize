@@ -17,7 +17,7 @@ background: transparent;
 font-size: 13px;
 transition: .5s;
 box-shadow: 0px 0px transparent;
-z-index: 1;
+z-index: 999;
 }
 nav.is-down {
     background: #232731;
@@ -109,7 +109,7 @@ h1{
 }
 
 .texto{
-    padding-top: 100px;
+    padding-top: 260px;
 }
 
 .flecha{
@@ -125,7 +125,7 @@ h1{
 }
 .contenedor2{
     position: relative;
-    top: 100px
+    padding: 100px 0;
 }
 .img{
    width: 38.75px;
@@ -155,7 +155,7 @@ p{
 }
 @media only screen and (max-width: 991px){
     .intro-content{
-        width: 75%;
+        width: 70%;
     }
 }
 @media only screen and (max-width: 1200px){
@@ -163,4 +163,84 @@ p{
         width: 70%;
     }
 }
+div.row{
+    top: 100px;
+}
+h5{
+    font-size: 15px !important;
+    font-weight: 500;
+}
+h3{
+    font-size: 24px !important;
+    margin-bottom: 20px;
+    margin: 140px 0 45px;
+}
+.texto2{
+    padding-bottom: 0;
+}
+.uno{
+    display: flex;
+}
+.iconos{
+    width: 40px;
+    margin-right: 20px;
+    border-style: none;
+    margin-top: 21px;
+}
+.t{
+    font-size: 15px;
+    line-height: 29px;
+    color: rgba(28,54,83,.6);
+}
+.dos{
+    padding: 20px 0;
+    border-bottom:solid 1px #E6E9EA;
+    border-top:solid 1px #E6E9EA;
+    margin: 20px 0;
+    display: flex;
+}
+.tercera{
+   background-color:  #F3F4F8;
+   padding-top: 120px;
+   position: relative;
+   overflow: hidden;
+}
 
+.ipad{
+    background: url(../assets/ipad-device.png)center center no-repeat;
+    width: 720px;
+    height: 1004px;
+    z-index: 1;
+}
+.dispositivos{
+    position: absolute;
+    right: 61%;
+    bottom: -340px;
+}
+.contparados{
+position: relative;
+}
+.iphone{
+    background: url(../assets/iphone-device.png)center center no-repeat;
+    width: 304px;
+    height: 619px;
+    z-index: 2;
+    position: absolute;
+    left: 74%;
+    bottom: 116px;
+}
+.cuarto{
+    z-index: 30;
+    position:relative;
+    width: 100%;
+    height: 400px;
+    background-color:white;
+    padding: 120px 0; 
+}
+.row{
+    margin-bottom: 0;
+    padding: 0 0px;
+}
+.container2{
+    width: 84% !important;
+}
